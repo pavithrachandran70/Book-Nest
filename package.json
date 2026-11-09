@@ -19,7 +19,8 @@
     "supertest": "^7.1.0"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "maxWorkers": 1
   },
   "allowScripts": {
     "better-sqlite3@11.10.0": true
