@@ -1,0 +1,27 @@
+{
+  "name": "booknest",
+  "version": "1.0.0",
+  "description": "BookNest bookstore API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --watchAll=false"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "allowScripts": {
+    "better-sqlite3@11.10.0": true
+  }
+}
